@@ -1,0 +1,112 @@
+.experience-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FBFF22;
+   
+}
+.experience-header span{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FBFF22;
+    display: block;
+
+    text-align: center;
+}
+.button-project{
+    margin: 0 auto;
+}
+.experience-item-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experience-item{
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #999999;
+    padding:0px 20px 60px 20px;
+    
+}
+.experience-item ul{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.experience-item li{
+    padding: 0px;
+    margin: 0px;
+}
+.subheader{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #b7b6b6;
+    padding: 30px 0px 30px 0px;
+}
+.position-organization{
+    color: #fbff22ae;
+}
+.work{
+    color: #b2b2b2;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media (max-width:420px){    
+    .experience-header span {
+        display: block;
+        font-size: 32px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .project-left{
+        padding: 0px;
+    }
+    .background-project-promo {
+        padding-top:50px;
+        width: 100%;
+        height: 0px;
+        padding-bottom: 30px;
+        
+    }
+    .experience-wrapper {
+        padding-top: 10px;
+
+    }
+    .experience-item {
+        max-width: 940px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        color: #999999;
+        padding: 0px 20px 20px 20px;
+    }
+  }
