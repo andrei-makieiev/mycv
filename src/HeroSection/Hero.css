@@ -1,182 +1,198 @@
-
-
-
 /*hero block*/
 
-.hero-block{
-    font-family: 'Poppins';
-    font-style: normal;
+.hero-block {
+  font-family: 'Poppins';
+  font-style: normal;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: #000;
+}
+
+.wrapper-content {
+  width: 90%;
+  font-family: 'Poppins';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hero-right-conent {
+  display: flex;
+  justify-content: space-around;
+  border: 1 px solid #FBFF22;
+
+}
+
+.hero-right-image {
+  position: relative;
+  padding-left: 100px;
+}
+
+.hero-left-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #999999;
+}
+
+.hero-name {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 78px;
+
+  color: #FBFF22;
+}
+
+.hero-line {
+  height: 1px;
+  width: 110px;
+  border-bottom: 2px solid #999999;
+  margin-bottom: 35px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+  color: #999999;
+}
+
+.hero-left-button {
+  width: 203px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  color: #000000;
+  background: #FBFF22;
+  border-radius: 5px;
+}
+
+.hero-left-buttons {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-left-button {
+  transition: 00.7s;
+  -webkit-transition: 00.7s;
+  -moz-transition: 00.7s;
+  -ms-transition: 00.7s;
+  -o-transition: 00.7s;
+}
+
+.hero-left-button:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.my-image {
+  width: 100%;
+}
+
+.hero-left-text {
+  width: 100%;
+}
+
+.hero-right-button {
+  width: 203px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  background: #000;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin-left: 30px;
+
+}
+
+.hero-left-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+@media (max-width:1279px) {
+  .hero-left-content {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    background: #000;
-  }
-  .wrapper-content{
-    width: 90%;
-    font-family: 'Poppins';
-    font-style: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     margin: 0 auto;
   }
-  .hero-right-conent{
-    display: flex;
-    justify-content: space-around;
-    border: 1 px solid #FBFF22;
-  
-  }
-  .hero-right-image{
-    position: relative;
-    padding-left: 100px;
-  }
-  .hero-left-content{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  h1{
-    font-weight: 600;
-    font-size: 52px;
-    line-height: 54px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  h2{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  h3{
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 45px;
-    text-align: center;
-    color: #999999;
-  }
-  .hero-name{
-    font-weight: 600;
-    font-size: 52px;
-    line-height: 78px;
-  
-    color: #FBFF22;
-  }
-  .hero-line{
-    height: 1px;
-    width: 110px;
-    border-bottom: 2px solid #999999;
-    margin-bottom: 35px;
-  }
-  .hero-text{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-  
-    color: #999999;
-  }
-  
-  .hero-left-button{
-    width: 203px;
-    height: 60px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-  
-    color: #000000;
-    background: #FBFF22;
-    border-radius: 5px;
-  }
-  .hero-left-buttons{ 
+
+  .hero-right-image {
+    padding-left: 0px;
     padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
   }
-  .hero-left-button{
-    transition: 00.7s;
-    -webkit-transition: 00.7s;
-    -moz-transition: 00.7s;
-    -ms-transition: 00.7s;
-    -o-transition: 00.7s;
+
+  .hero-left-buttons {
+    width: 100%;
+  }
 }
-  .hero-left-button:hover{
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-  
-  .my-image{
-    width: 100%;
-  }
-
-  .hero-left-text{
-    width: 100%;
-  }
-  .hero-right-button{
-    width: 203px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    background: #000;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
-    margin-left: 30px;
-  
-  } 
-  .hero-left-button a{
-    text-decoration: none;
-    color: #000;
-  }
 
 
-  @media (max-width:1279px){
-    .hero-left-content{
-      width: 100%;
-      margin: 0 auto;
-    }
-    .hero-right-image{
-      padding-left: 0px;
-      padding-top: 50px;
-    }
-    .hero-left-buttons {
-      width: 100%;
-    }
+@media (max-width:670px) {
+  .hero-right-image {
+    padding-left: 0px;
   }
- 
-  
-  @media (max-width:670px){    
-    .hero-right-image {
-      padding-left:0px; 
-  }
-  .plusses{
+
+  .plusses {
     display: none;
   }
-  .lines{
+
+  .lines {
     display: none;
   }
-  }
+}

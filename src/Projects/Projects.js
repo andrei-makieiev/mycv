@@ -2,15 +2,13 @@ import React from "react";
 import './Projects.css';
 
 import project from '../img/project-site.png';
-import furniture from'../img/furniture.png';
-import rates from'../img/rates.png';
+import furniture from '../img/furniture.png';
+import rates from '../img/rates.png';
 import quiz from '../img/quiz.png';
 
-
-
-class Projects extends React.Component{
-    render(){
-        return(
+class Projects extends React.Component {
+    render() {
+        return (
             <section>
                 <div className="wrapper-content" id='projects'>
                     <div className="background-project-promo"><span className='span-projects'>MY PROJECTS</span></div>
@@ -28,7 +26,7 @@ class Projects extends React.Component{
                                     <a className='button-project' href="https://yeezy-salon.com/" target="blank">View Details</a>
                                 </div>
                             </div>
-                        </div>             
+                        </div>
                     </div>
                     <div className="project-wrapper-content">
                         <div className="project-wrapper">
@@ -42,7 +40,7 @@ class Projects extends React.Component{
                                     <a className='button-project' href="https://landingfurniture.netlify.app/" target="blank">View Details</a>
                                 </div>
                             </div>
-                        </div>             
+                        </div>
                     </div>
                     <div className="project-wrapper-content">
                         <div className="project-wrapper">
@@ -56,9 +54,9 @@ class Projects extends React.Component{
                                     <a className='button-project' href=" https://reactprogect.netlify.app/" target="blank">View Details</a>
                                 </div>
                             </div>
-                        </div>             
+                        </div>
                     </div>
-                   
+
                     <div className="rectangle"></div>
                 </div>
             </section>

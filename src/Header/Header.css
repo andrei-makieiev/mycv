@@ -1,121 +1,129 @@
 /*Header*/
 
-  .header-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    background: #000;
-    padding-top: 50px;
-  }
-  .header-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0 auto;
-    color: #FFFFFF;
-  
-  }
-  
-  .header-left a{
-    margin-left:30px;
-  
-  }
-  .header-left span{
-    margin-left: 40px;
-  }
-  .header-right{
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-
-  }
-  .nav{
-    padding: 0px 20px 0px 20px;
-    transition: 0.7s;
-    -webkit-transition: 0.7s;
-    -moz-transition: 0.7s;
-    -ms-transition: 0.7s;
-    -o-transition: 0.7s;
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background: #000;
+  padding-top: 50px;
 }
 
-  .nav:hover{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}  
-  
-  .header-right  button{
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  color: #FFFFFF;
 
-    width: 148px;
-    height: 60px;
-    background: #000;
-    border: 2px solid #FBFF22;
-    border-radius: 5px;
-    color:#FBFF22 ;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .header-right a{
+}
+
+.header-left a {
+  margin-left: 30px;
+
+}
+
+.header-left span {
+  margin-left: 40px;
+}
+
+.header-right {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.nav {
+  padding: 0px 20px 0px 20px;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.nav:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.header-right button {
+
+  width: 148px;
+  height: 60px;
+  background: #000;
+  border: 2px solid #FBFF22;
+  border-radius: 5px;
+  color: #FBFF22;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-right a {
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.icons {
+  transition: transform .9s;
+  -webkit-transition: transform .9s;
+  -moz-transition: transform .9s;
+  -ms-transition: transform .9s;
+  -o-transition: transform .9s;
+}
+
+.icons a :hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+body {
+  background: #000;
+}
+
+@media (max-width:1132px) {
+
+  .header-right {
     width: 100%;
-    height: auto;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
   }
-  .icons{
-    transition: transform .9s;
-    -webkit-transition: transform .9s;
-    -moz-transition: transform .9s;
-    -ms-transition: transform .9s;
-    -o-transition: transform .9s;
-  }
-  .icons a :hover{
-    transform: scale(1.1)  ;
-    -webkit-transform: scale(1.1)  ;
-    -moz-transform: scale(1.1)  ;
-    -ms-transform: scale(1.1)  ;
-    -o-transform: scale(1.1)  ;
-  }
-  
-  body{
-    background: #000;
-  }
+}
 
-  @media (max-width:1132px){
-   
-    .header-right {
-      width: 100%;
-      justify-content: center;
-      flex-wrap:wrap ;
-      padding-top: 30px;
+@media (max-width:420px) {
+  .header-right a {
+    font-size: 14px;
   }
-  }
-  @media (max-width:420px){    
-    .header-right a {
-      font-size: 14px;
-  }
-  }
+}
